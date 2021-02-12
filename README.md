@@ -53,9 +53,9 @@ yarn global add commitizen
 
 ```bash
 # npm
-commitizen init cz-cc --save-dev --save-exact
+commitizen init cz-cc
 # yarn
-commitizen init cz-cc --yarn --dev --exact
+commitizen init cz-cc --yarn
 ```
 
 3. Start commitizen CLI
@@ -72,7 +72,7 @@ cz
 # npm
 npm install -D commitizen cz-cc
 # yarn
-yarn add commitizen cz-cc
+yarn add -D commitizen cz-cc
 ```
 
 2. Add following config to `package.json`
@@ -80,14 +80,15 @@ yarn add commitizen cz-cc
 ```json5
 {
   // ...
+  "scripts": {
+    // ...
+    "commit": "cz"
+  },
+  // ...
   "config": {
     "commitizen": {
       "path": "cz-cc"
     }
-  },
-  "scripts": {
-    // ...
-    "commit": "cz"
   }
 }
 ```
