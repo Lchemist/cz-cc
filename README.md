@@ -33,6 +33,7 @@ A [commitizen](https://www.npmjs.com/package/commitizen) adaptor that follows th
 | perf     | ⚡️     | Changes that improves performance                                                               |
 | docs     | 📝     | Documentation only changes                                                                      |
 | ci       | 👷     | Changes to CI config files and scripts                                                          |
+| build    | 🔨     | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm) |
 | revert   | ⏪     | Reverts a previous commit                                                                       |
 | break    | 💥     | A breaking change (alias to feat)                                                               |
 | init     | 🎉     | Initial commit (alias to feat)                                                                  |
