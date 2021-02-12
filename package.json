@@ -13,6 +13,11 @@
   ],
   "author": "Lchemist",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/Lchemist/cz-cc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lchemist/cz-cc.git"
+  },
   "files": [
     "lib"
   ],
