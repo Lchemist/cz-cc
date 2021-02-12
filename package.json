@@ -1,6 +1,6 @@
 {
   "name": "cz-cc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commitizen adaptor that follows the Conventional Commits specification (with support for semantic emoji ✨)",
   "keywords": [
     "commitizen",
