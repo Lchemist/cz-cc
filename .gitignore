@@ -1,0 +1,4 @@
+archive
+lib
+node_modules
+*.tsbuildinfo
