@@ -40,7 +40,7 @@
     "word-wrap": "^1.2.3"
   },
   "peerDependencies": {
-    "commitizen": ">=4"
+    "commitizen": ">=2"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
